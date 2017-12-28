@@ -1,0 +1,22 @@
+{
+    "name": "noxwings-theme",
+    "displayName": "noxwings-theme",
+    "description": "Custom monokai-based theme with dark colors",
+    "version": "0.0.1",
+    "publisher": "NoxWings",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NoxWings Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NoxWings Theme-color-theme.json"
+            }
+        ]
+    }
+}
